@@ -11,6 +11,9 @@ autom4te.cache/
 tarballs/
 test-results/
 
+#Stripe-Config json
+appconfig.json
+
 # Mac bundle stuff
 *.dmg
 *.app

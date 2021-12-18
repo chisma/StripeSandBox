@@ -1,15 +1,28 @@
 ﻿using NUnit.Framework;
 using Stripe;
 using System.Diagnostics;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace StripeSandbox
 {
-    public class StripeTestClient {
+    public class StripeTestClient : IHttpClient
+    {
+        public Task<StripeResponse> MakeRequestAsync(StripeRequest request, CancellationToken cancellationToken = default)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task<StripeStreamedResponse> MakeStreamingRequestAsync(StripeRequest request, CancellationToken cancellationToken = default)
+        {
+            throw new System.NotImplementedException();
+        }
+
         [SetUp]
         public void Setup()
         {
-
-            StripeConfiguration.ApiKey = "sk_test_51K7dC5FexnxosIm9q7TFro3Jvh1ArfpQWsJyfIQ9WrrJNYFZMt4CTdgHNnBxT4WakqBZQpVDghSllu8kz0uVYCGV00sAFIpLir";
+          
+            StripeConfiguration.ApiKey = "copy_from_appsesttings.json";
 
         }
 
