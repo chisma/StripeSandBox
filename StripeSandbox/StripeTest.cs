@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace StripeSandbox
 {
+    [TestFixture]
     public class StripeTestClient : IHttpClient
     {
         public Task<StripeResponse> MakeRequestAsync(StripeRequest request, CancellationToken cancellationToken = default)
