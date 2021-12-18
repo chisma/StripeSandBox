@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripeSandbox.Test", "StripeSandbox\StripeSandbox.Test.csproj", "{C3A16217-57F3-4F33-9CF7-4B49024AD2BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3A16217-57F3-4F33-9CF7-4B49024AD2BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A16217-57F3-4F33-9CF7-4B49024AD2BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A16217-57F3-4F33-9CF7-4B49024AD2BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A16217-57F3-4F33-9CF7-4B49024AD2BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7CCE34D-6AF6-4D86-91F1-1AC72998AB07}
+	EndGlobalSection
+EndGlobal
