@@ -22,7 +22,7 @@ namespace StripeSandbox
         public void Setup()
         {
           
-            StripeConfiguration.ApiKey = "copy_from_appsesttings.json";
+            StripeConfiguration.ApiKey = "copy_from_appconfig.json";
 
         }
 
